@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2011/03/02 13:46:45.208.bdsproj,C:\Documents and Settings\AdvDev\My Documents\Borland Studio Projects\Project1.bdsproj=D:\work\d2006\dss cprs 27_83\OR_SRC_CREATION\vxcprs-chart_11\Immunizations\Immunizations.bdsproj</Transaction>
+    <Transaction>2011/03/15 16:23:35.500.pas,D:\work\d2006\dss cprs 27_83\OR_SRC_CREATION\vxcprs-chart_11\Immunizations\fImmunizationAddEdit.pas=D:\work\d2006\dss cprs 27_83\OR_SRC_CREATION\vxcprs-chart_11\Immunizations\fImmunizationStock.pas</Transaction>
+    <Transaction>2011/03/15 16:23:35.500.dfm,D:\work\d2006\dss cprs 27_83\OR_SRC_CREATION\vxcprs-chart_11\Immunizations\fImmunizationAddEdit.dfm=D:\work\d2006\dss cprs 27_83\OR_SRC_CREATION\vxcprs-chart_11\Immunizations\fImmunizationStock.dfm</Transaction>
+    <Transaction>2011/03/15 16:27:09.937.pas,D:\work\d2006\dss cprs 27_83\OR_SRC_CREATION\vxcprs-chart_11\Immunizations\fImmunizationStock.pas=D:\work\d2006\dss cprs 27_83\OR_SRC_CREATION\vxcprs-chart_11\Immunizations\fImmunizationAdministration.pas</Transaction>
+    <Transaction>2011/03/15 16:27:09.937.dfm,D:\work\d2006\dss cprs 27_83\OR_SRC_CREATION\vxcprs-chart_11\Immunizations\fImmunizationStock.dfm=D:\work\d2006\dss cprs 27_83\OR_SRC_CREATION\vxcprs-chart_11\Immunizations\fImmunizationAdministration.dfm</Transaction>
+    <Transaction>2011/03/15 17:38:17.703.bdsproj,D:\work\d2006\dss cprs 27_83\OR_SRC_CREATION\vxcprs-chart_11\Immunizations\Immunizations.bdsproj=D:\work\d2006\dss cprs 27_83\OR_SRC_CREATION\vxcprs-chart_11\Immunizations\ImmunizationAdministration.bdsproj</Transaction>
+  </Transactions>
+</BorlandProject>

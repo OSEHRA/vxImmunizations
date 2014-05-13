@@ -1,0 +1,367 @@
+D:\work\d2006\dss cprs 27_83\OR_SRC_CREATION\vxcprs-chart_11\Immunizations\fImmunizationAdministration.dfm
+15508/1049852124
+0
+35
+D:\work\d2006\dss cprs 27_83\OR_SRC_CREATION\vxcprs-chart_11\Immunizations\fImmunizationAdministration.pas
+19456/1049852978
+35
+17
+D:\work\d2006\dss cprs 27_83\OR_SRC_CREATION\vxcprs-chart_13\Immunizations\fImmunizationAdministration.dfm
+15508/1049852124
+52
+35
+D:\work\d2006\dss cprs 27_83\OR_SRC_CREATION\vxcprs-chart_13\Immunizations\fImmunizationAdministration.pas
+19456/1049852978
+87
+17
+D:\work\d2006\dss cprs 27_83\OR_SRC_CREATION\vxcprs-chart_14\Immunizations\fImmunizationAdministration.dfm
+15508/1049921026
+104
+35
+D:\work\d2006\dss cprs 27_83\OR_SRC_CREATION\vxcprs-chart_14\Immunizations\fImmunizationAdministration.pas
+19381/1049921762
+139
+17
+D:\work\d2006\dss cprs 27_83\OR_SRC_CREATION\vxcprs-chart_16\Immunizations\fImmunizationAdministration.dfm
+16140/1050062569
+156
+35
+D:\work\d2006\dss cprs 27_83\OR_SRC_CREATION\vxcprs-chart_16\Immunizations\fImmunizationAdministration.pas
+20425/1050062582
+191
+17
+D:\work\d2006\dss cprs 27_83\OR_SRC_CREATION\vxcprs-chart_18\Immunizations\fImmunizationAdministration.dfm
+16411/1050247342
+208
+38
+D:\work\d2006\dss cprs 27_83\OR_SRC_CREATION\vxcprs-chart_18\Immunizations\fImmunizationAdministration.pas
+20578/1050247777
+246
+17
+D:\work\d2006\dss cprs 27_83\OR_SRC_CREATION\vxcprs-chart_24\Immunizations\fImmunizationAdministration.dfm
+16313/1128562330
+263
+38
+D:\work\d2006\dss cprs 27_83\OR_SRC_CREATION\vxcprs-chart_24\Immunizations\fImmunizationAdministration.pas
+19165/1128564296
+301
+17
+|EOINDEX|
+627
+object frmImmunizationAdministration: TfrmImmunizationAdministration
+object amgrMain: TVA508AccessibilityManager
+Data = (
+(
+'Component = frmImmunizationAdministration'
+'Status = stsDefault')
+(
+'Component = cboImmName'
+'Status = stsDefault')
+(
+'Component = cboImmDosageUnit'
+'Status = stsDefault')
+(
+'Component = spnedtDosageAmount'
+'Status = stsDefault')
+(
+'Component = cboImmAdminByWhom'
+'Status = stsDefault')
+(
+'Component = jdtAdminStartDate'
+'Status = stsDefault')
+(
+'Component = jdtAdminStartTime'
+'Status = stsDefault')
+(
+'Component = cboImmProductName'
+'Status = stsDefault')
+(
+'Component = jdtAdminEndDate'
+'Status = stsDefault')
+(
+'Component = jdtAdminEndTime'
+'Status = stsDefault'))
+end
+unit fImmunizationAdministration;
+
+//*****************************************************************************
+//gkp added for ARRA 170.302(k) 2011-03
+//*****************************************************************************
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, VA508AccessibilityManager, Buttons, StdCtrls, ExtCtrls, JvgLabel,
+  JvExControls, JvGradient, ORCtrls, ComCtrls, Mask, JvExMask, JvSpin,
+  JvExComCtrls, JvDateTimePicker,
+  uPCE, uCore, rPCE, fOrders, Trpcb, uImmunizations;
+
+type
+  TfrmImmunizationAdministration = class(TForm)
+627
+object frmImmunizationAdministration: TfrmImmunizationAdministration
+object amgrMain: TVA508AccessibilityManager
+Data = (
+(
+'Component = frmImmunizationAdministration'
+'Status = stsDefault')
+(
+'Component = cboImmName'
+'Status = stsDefault')
+(
+'Component = cboImmDosageUnit'
+'Status = stsDefault')
+(
+'Component = spnedtDosageAmount'
+'Status = stsDefault')
+(
+'Component = cboImmAdminByWhom'
+'Status = stsDefault')
+(
+'Component = jdtAdminStartDate'
+'Status = stsDefault')
+(
+'Component = jdtAdminStartTime'
+'Status = stsDefault')
+(
+'Component = cboImmProductName'
+'Status = stsDefault')
+(
+'Component = jdtAdminEndDate'
+'Status = stsDefault')
+(
+'Component = jdtAdminEndTime'
+'Status = stsDefault'))
+end
+unit fImmunizationAdministration;
+
+//*****************************************************************************
+//gkp added for ARRA 170.302(k) 2011-03
+//*****************************************************************************
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, VA508AccessibilityManager, Buttons, StdCtrls, ExtCtrls, JvgLabel,
+  JvExControls, JvGradient, ORCtrls, ComCtrls, Mask, JvExMask, JvSpin,
+  JvExComCtrls, JvDateTimePicker,
+  uPCE, uCore, rPCE, fOrders, Trpcb, uImmunizations;
+
+type
+  TfrmImmunizationAdministration = class(TForm)
+627
+object frmImmunizationAdministration: TfrmImmunizationAdministration
+object amgrMain: TVA508AccessibilityManager
+Data = (
+(
+'Component = frmImmunizationAdministration'
+'Status = stsDefault')
+(
+'Component = cboImmName'
+'Status = stsDefault')
+(
+'Component = cboImmDosageUnit'
+'Status = stsDefault')
+(
+'Component = spnedtDosageAmount'
+'Status = stsDefault')
+(
+'Component = cboImmAdminByWhom'
+'Status = stsDefault')
+(
+'Component = jdtAdminStartDate'
+'Status = stsDefault')
+(
+'Component = jdtAdminStartTime'
+'Status = stsDefault')
+(
+'Component = cboImmProductName'
+'Status = stsDefault')
+(
+'Component = jdtAdminEndDate'
+'Status = stsDefault')
+(
+'Component = jdtAdminEndTime'
+'Status = stsDefault'))
+end
+unit fImmunizationAdministration;
+
+//*****************************************************************************
+//gkp added for ARRA 170.302(k) 2011-03
+//*****************************************************************************
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, VA508AccessibilityManager, Buttons, StdCtrls, ExtCtrls, JvgLabel,
+  JvExControls, JvGradient, ORCtrls, ComCtrls, Mask, JvExMask, JvSpin,
+  JvExComCtrls, JvDateTimePicker,
+  uPCE, uCore, rPCE, fOrders, Trpcb, uImmunizations;
+
+type
+  TfrmImmunizationAdministration = class(TForm)
+660
+object frmImmunizationAdministration: TfrmImmunizationAdministration
+object amgrMain: TVA508AccessibilityManager
+Data = (
+(
+'Component = frmImmunizationAdministration'
+'Status = stsDefault')
+(
+'Component = cboImmName'
+'Status = stsDefault')
+(
+'Component = cboImmDosageUnit'
+'Status = stsDefault')
+(
+'Component = spnedtDosageAmount'
+'Status = stsDefault')
+(
+'Component = cboImmAdminByWhom'
+'Status = stsDefault')
+(
+'Component = jdtAdminStartDate'
+'Status = stsDefault')
+(
+'Component = jdtAdminStartTime'
+'Status = stsDefault')
+(
+'Component = cboImmProductName'
+'Status = stsDefault')
+(
+'Component = jdtAdminEndDate'
+'Status = stsDefault')
+(
+'Component = jdtAdminEndTime'
+'Status = stsDefault'))
+end
+unit fImmunizationAdministration;
+
+//*****************************************************************************
+//gkp added for ARRA 170.302(k) 2011-03
+//*****************************************************************************
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, VA508AccessibilityManager, Buttons, StdCtrls, ExtCtrls, JvgLabel,
+  JvExControls, JvGradient, ORCtrls, ComCtrls, Mask, JvExMask, JvSpin,
+  JvExComCtrls, JvDateTimePicker,
+  uPCE, uCore, rPCE, fOrders, Trpcb, uImmunizations;
+
+type
+  TfrmImmunizationAdministration = class(TForm)
+673
+object frmImmunizationAdministration: TfrmImmunizationAdministration
+object amgrMain: TVA508AccessibilityManager
+Data = (
+(
+'Component = frmImmunizationAdministration'
+'Status = stsDefault')
+(
+'Component = cboImmName'
+'Status = stsDefault')
+(
+'Component = cboImmDosageUnit'
+'Status = stsDefault')
+(
+'Component = spnedtDosageAmount'
+'Status = stsDefault')
+(
+'Component = cboImmAdminByWhom'
+'Status = stsDefault')
+(
+'Component = jdtAdminStartDate'
+'Status = stsDefault')
+(
+'Component = jdtAdminStartTime'
+'Status = stsDefault')
+(
+'Component = cboImmProductName'
+'Status = stsDefault')
+(
+'Component = jdtAdminEndDate'
+'Status = stsDefault')
+(
+'Component = jdtAdminEndTime'
+'Status = stsDefault')
+(
+'Component = StatusBar1'
+'Status = stsDefault'))
+end
+unit fImmunizationAdministration;
+
+//*****************************************************************************
+//gkp added for ARRA 170.302(k) 2011-03
+//*****************************************************************************
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, VA508AccessibilityManager, Buttons, StdCtrls, ExtCtrls, JvgLabel,
+  JvExControls, JvGradient, ORCtrls, ComCtrls, Mask, JvExMask, JvSpin,
+  JvExComCtrls, JvDateTimePicker,
+  uPCE, uCore, rPCE, fOrders, Trpcb, uImmunizations;
+
+type
+  TfrmImmunizationAdministration = class(TForm)
+669
+object frmImmunizationAdministration: TfrmImmunizationAdministration
+object amgrMain: TVA508AccessibilityManager
+Data = (
+(
+'Component = frmImmunizationAdministration'
+'Status = stsDefault')
+(
+'Component = cboImmName'
+'Status = stsDefault')
+(
+'Component = cboImmDosageUnit'
+'Status = stsDefault')
+(
+'Component = spnedtDosageAmount'
+'Status = stsDefault')
+(
+'Component = cboImmAdminByWhom'
+'Status = stsDefault')
+(
+'Component = jdtAdminStartDate'
+'Status = stsDefault')
+(
+'Component = jdtAdminStartTime'
+'Status = stsDefault')
+(
+'Component = cboImmProductName'
+'Status = stsDefault')
+(
+'Component = jdtAdminEndDate'
+'Status = stsDefault')
+(
+'Component = jdtAdminEndTime'
+'Status = stsDefault')
+(
+'Component = StatusBar1'
+'Status = stsDefault'))
+end
+unit fImmunizationAdministration;
+
+//*****************************************************************************
+//gkp added 2011-03
+//*****************************************************************************
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, VA508AccessibilityManager, Buttons, StdCtrls, ExtCtrls, JvgLabel,
+  JvExControls, JvGradient, ORCtrls, ComCtrls, Mask, JvExMask, JvSpin,
+  JvExComCtrls, JvDateTimePicker,
+  uPCE, uCore, rPCE, fOrders, Trpcb, uImmunizations;
+
+type
+  TfrmImmunizationAdministration = class(TForm)
